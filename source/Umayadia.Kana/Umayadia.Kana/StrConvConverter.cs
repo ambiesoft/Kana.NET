@@ -39,7 +39,7 @@ namespace Umayadia.Kana
                 string converted;
 
                 byte[] bytes = System.Text.Encoding.UTF32.GetBytes(current.ToString());
-                int codePoint = BitConverter.ToInt32(bytes);
+                int codePoint = BitConverter.ToInt32(bytes,0);
 
                 if (codePoint <= 0x1f)
                 {

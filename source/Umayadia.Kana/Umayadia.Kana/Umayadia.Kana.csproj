@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net5.0;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net481;net6.0;netcoreapp3.1</TargetFrameworks>
     <ImplicitUsings>disable</ImplicitUsings>
     <FileVersion>1.0.5</FileVersion>
+    <LangVersion>8.0</LangVersion>
     <Nullable>enable</Nullable>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Title>Kana.NET</Title>
